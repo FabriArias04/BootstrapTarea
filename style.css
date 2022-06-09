@@ -14,7 +14,7 @@ body {
     cursor: pointer;
 }
 .div-juegos {
-    margin: 10px;
+    margin: 20px 0;
 }
 .div-juegos label {
     text-align: center;
@@ -27,4 +27,24 @@ body {
 }
 .btn-centrado {
     margin-left: 15px;
+}
+.h1-index {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+    user-select: none;
+}
+.container {
+    padding-left: 125px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .mover-div {
+        padding-left: 165px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        padding-left: 200px;
+    }
 }
